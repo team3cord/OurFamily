@@ -1,36 +1,26 @@
-# fullpixel - a PCS demonstration project
+# FullPixel
 
-A big stack of screen filling images (mixed with users’ story texts and ads).
+---
 
-We will...
+![FullPixel image](fullpix.png)
 
-	... serve the right size image to the right screen.  
+---
 
-	... preload so the user rarely waits for next image.
+## Discription:
 
-	... assume but not require full screen use.
+FullPixel is a members based web application for uploading and view high quality large images and sharing with the community.
 
-	... provide a beautiful, super-simple user interface for photo viewing and sharing.
+## FullPixel verison: 0.0.1  ~ beta
 
+---
 
-View Modes
+### Built with:
 
-1  Non-registered user front page  >>> fullpix.com
-
-2  Non-registered user with specific url front page >>> fullpix.com/someuser
-
-3  All-users - Fullscreen slideviewer, after first page....   fullpix.com/someuser
-	
-	First user page includes public user profile
-
-	Second and subsequent pages are picture viewing pages (full screen or in browser viewing)
- 
-
-4  Registered (logged in) user dashboard  >>> fullpix.com/someuser/dashboard
-	
-	Upload and edit picture display modes
-	
-	Edit user profile  
-
+* MongoDB [![MongoDB Yo](public/assets/mongologo.jpg)](https://www.mongodb.org/)
+* ExpressJS [![ExpressJS Yo](public/assets/express.png)](http://expressjs.com/)
+*AngularJS [![AngularJs Yo](public/assets/ng.png)](https://angularjs.org/)
+*NodeJS [![Node](public/assets/nodelogo.png)](https://nodejs.org/)
+*GulpJS [![Gulp](public/assets/)](http://gulpjs.com/)
+*Bower [![Bower](public/assets/)](http://bower.io/)
 
 
