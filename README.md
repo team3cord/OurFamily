@@ -24,10 +24,13 @@ FullPixel is a members based web application for uploading and view high quality
 * Bower
 
 ---
+
 [![MongoDB Yo](public/assets/mongologo.jpeg)](https://www.mongodb.org/)
 [![ExpressJS Yo](public/assets/express.png)](http://expressjs.com/)
 [![AngularJs Yo](public/assets/AngularJS-large.png)](https://angularjs.org/)
 [![Node](public/assets/nodelogo.png)](https://nodejs.org/)
 [![Gulp](public/assets/gulplogo.png)](http://gulpjs.com/)
 [![Bower](public/assets/bowerlogo.png)](http://bower.io/)
+
+---
 
