@@ -1,16 +1,16 @@
-# FullPixel
+# OurFamily 
 
 ---
 
-![FullPixel image](public/assets/fullpix.png)
+![OurFamily image](public/assets/fullpix.png)
 
 ---
 
 ## Discription:
 
-FullPixel is a members based web application for uploading and view high quality large images and sharing with the community.
+OurFamily is a private members based web application for uploading and view high quality large images and sharing with the family.
 
-## FullPixel verison: 0.0.1  ~ beta
+## OurFamily verison: 0.0.1  ~ beta
 
 ---
 
