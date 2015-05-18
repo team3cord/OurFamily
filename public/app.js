@@ -422,7 +422,7 @@ angular.module('pullPix')
 angular.module('pullPix')
     .service('MemberListSvc', ["$http", function($http){
         this.fetch = function(){
-            return $http.get('http://localhost:3000/member');
+            return $http.get('/member');
         }
     }]);
 angular.module('pullPix')
