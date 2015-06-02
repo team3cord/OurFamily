@@ -1,24 +1,23 @@
 var gulp           = require('gulp'),
     concat         = require('gulp-concat'),
-    uglify         = require('gulp-uglify'),
+//  uglify         = require('gulp-uglify'),
     ngAnnotate     = require('gulp-ng-annotate'),
     nodemon        = require('gulp-nodemon'),
     sass           = require('gulp-sass'),
     notify         = require('gulp-notify'),
     bower          = require('gulp-bower'),
-    gutil          = require('gulp-util'),
     livereload     = require('gulp-livereload'),
     mainBowerFiles = require('main-bower-files');
 
 var config = {
-    sassPath: 'public/stylesheets/*.scss',
-    jsPath: 'public/js/ng/**/*.js',
+    sassPath:  'public/stylesheets/*.scss',
+    jsPath:    'public/js/ng/**/*.js',
     bowerPath: 'public/js/lib',
-    htmlPath: 'public/partials/*.html'
+    htmlPath:  'public/partials/*.html'
 };
 
 gulp.task('js', function(){
-    gulp.src(['public/js/ng/controllers/module.js', config.jsPath])
+    gulp.src(['public/js/ng/controllers/module.js',                      config.jsPath])
         .pipe(concat('app.js'))
         .pipe(ngAnnotate())
        // .pipe(uglify())
@@ -27,15 +26,6 @@ gulp.task('js', function(){
 gulp.task('watch:js', ['js'], function(){
     gulp.watch(config.jsPath, ['js']);
 });
-//gulp.task('html', function(){
-//    gulp.src(config.htmlPath)
-//        .on('change')
-//        .pipe(livereload());
-//});
-//gulp.task('watch:html',['html'], function(){
-//    livereload.listen();
-//    gulp.watch(config.htmlpath,['html']);
-//});
 gulp.task('bower', function(){
      gulp.src(mainBowerFiles(),{base: config.bowerPath})
         .pipe(concat('bower.js'))
