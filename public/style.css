@@ -1,3 +1,17 @@
+.delete {
+  background: #ff00ff; }
+  .delete h1 {
+    font-size: 55px;
+    color: red; }
+  .delete .emergency {
+    background-color: #ffff00; }
+
+.edit {
+  background: #00ff00; }
+  .edit h1 {
+    font-size: 55px;
+    color: #000000; }
+
 .fullBg {
   width: 100%;
   height: 100%;

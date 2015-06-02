@@ -2,7 +2,7 @@
 
 ---
 
-![OurFamily image](public/assets/fullpix.png)
+![OurFamily image](public/assets/ourfam.png)
 
 ---
 
